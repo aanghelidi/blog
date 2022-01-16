@@ -1,3 +1,34 @@
-baseURL = "http://example.org/"
+baseurl = "https://example.com/"
+title = "aangel.com"
+theme = "console"
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+
+[params]
+  titleCutting = true
+  custom_css = ["css/console.css","css/lineicons.css"]
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+  [[params.socialinks]]
+  name = "Github"
+  url = "https://github.com/NewMirai"
+
+  [[params.socialinks]]
+  name = "Gitlab"
+  url = "https://gitlab.com/aanghelidi"
+
+  [[params.socialinks]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/alain-anghelidi/"
+
+  [[params.socialinks]]
+  name = "Twitter"
+  url = "https://twitter.com/alangel12407606"
+
