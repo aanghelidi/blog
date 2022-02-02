@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2022-01-16T20:20:47+01:00
-draft: true
+draft: false
 ---
 
 Hi! My name is Alain Anghelidi. I'm a former Data Scientist currently working
