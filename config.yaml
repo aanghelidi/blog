@@ -1,0 +1,36 @@
+baseurl : https://main.d2rw5vv1m7w5eo.amplifyapp.com/
+title : aangel.com
+theme : console
+languageCode : en-us
+
+params:
+  titleCutting : true
+
+  custom_css:
+    - css/console.css
+    - css/lineicons.css
+
+  navlinks:
+    name : about/
+    url : about/
+
+  navlinks:
+    name : posts/
+    url : posts/
+  
+  socialinks:
+    name : Github
+    url : https://github.com/NewMirai
+
+  socialinks:
+    name : Gitlab
+    url : https://gitlab.com/aanghelidi
+
+  socialinks:
+    name : LinkedIn
+    url : https://www.linkedin.com/in/alain-anghelidi/
+
+  socialinks:
+    name : Twitter
+    url : https://twitter.com/alangel12407606
+
