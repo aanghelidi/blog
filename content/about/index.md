@@ -21,7 +21,7 @@ industry in general.
 - [Vim](https://www.vim.org/), for everything else
 
 ## Contact me
-You can reach out to me our various plateforms:
+You can reach out to me on various plateforms:
 - [LinkedIn](https://www.linkedin.com/in/alain-anghelidi/)
 - [Twitter](https://twitter.com/alangel12407606)
 - or contact me by mail, [send an email](mailto:alainanghelidi@gmail.com)
