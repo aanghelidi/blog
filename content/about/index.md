@@ -17,7 +17,7 @@ industry in general.
 - and [Golang](https://go.dev/), that I learned recently and find really well designed
 
 ## Favorite editors:
-- [Emacs](https://www.gnu.org/software/emacs/), for long session of work
+- [Emacs](https://www.gnu.org/software/emacs/), for long sessions of work
 - [Vim](https://www.vim.org/), for everything else
 
 ## Contact me
