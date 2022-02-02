@@ -32,7 +32,8 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #444;
+    --global-font-color: #bdbdbd ;
+    --font-color: #bdbdbd ;
     --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
@@ -40,12 +41,13 @@
     --display-h1-decoration: 1;
     --code-bg-color: #fff;
     --primary-color: #457b9d;
+    --background-color: #000;
 }
 
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
-        --global-font-color: #444;
+        --global-font-color: #bdbdbd ;
         --global-line-height: 1.6em;
         --page-width: 70em;
     }
@@ -72,10 +74,13 @@
 }
 
 body {
-    font-family: var(--font-stack);
-    font-size: var(--global-font-size);
-    background-color: #fff;
-    margin-bottom: 75px;
+	font-size: var(--global-font-size);
+	color: var(--font-color);
+	line-height: var(--global-line-height);
+	margin: 0;
+	font-family: var(--font-stack);
+	word-wrap: break-word;
+	background-color: var(--background-color); 
 }
 
 h1,
