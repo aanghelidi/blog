@@ -1,5 +1,5 @@
-baseurl: https://gitlab.com/aanghelidi/blog
-title: aangel.com
+baseurl: https://aanghelidi.gitlab.io/blog/
+title: aanghelidi
 theme: console
 languageCode: en-us
 params:
