@@ -18,7 +18,7 @@ industry in general.
 
 ## Favorite editors:
 - [Emacs](https://www.gnu.org/software/emacs/), for long sessions of work
-- [Vim](https://www.vim.org/), for everything else
+- [Vim](https://www.vim.org/)/[Neovim](https://neovim.io/), for everything else
 
 ## Contact me
 You can reach out to me on various plateforms:
