@@ -12,6 +12,8 @@ params:
       url: about/
     - name: posts/
       url: posts/
+    - name: projects/
+      url: projects/
   socialinks:
     - name: Github
       url: https://github.com/NewMirai
