@@ -16,7 +16,7 @@ params:
       url: projects/
   socialinks:
     - name: Github
-      url: https://github.com/NewMirai
+      url: https://github.com/aanghelidi
     - name: Gitlab
       url: https://gitlab.com/aanghelidi
     - name: LinkedIn
