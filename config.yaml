@@ -8,14 +8,14 @@ params:
     - css/console.css
     - css/lineicons.css
   navlinks:
+    - name: RSS
+      url: index.xml
     - name: about/
       url: about/
     - name: posts/
       url: posts/
     - name: projects/
       url: projects/
-    - name: RSS
-      url: index.xml
   socialinks:
     - name: Github
       url: https://github.com/aanghelidi
