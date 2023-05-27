@@ -11,9 +11,6 @@
     <meta name="googlebot" content="index,follow,snippet,archive">
     <link rel="stylesheet" href="{{ "hugo-theme-console/css/terminal-0.7.1.min.css" | absURL }}">
     <link rel="stylesheet" href="{{ "hugo-theme-console/css/animate-3.7.2.min.css" | absURL }}">
-    {{ with .OutputFormats.Get "RSS" }}
-      {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
-    {{ end }}
     {{ partial "header.html" . }}
 </head>
 <body class="terminal">
