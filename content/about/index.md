@@ -5,7 +5,7 @@ draft: false
 ---
 
 Hi! My name is Alain Anghelidi. I'm a former Data Scientist currently working
-as an MLOps Engineer whose goal is to build robust and efficient machine learning systems into production.
+as an Machine Learning Engineer whose goal is to build robust and efficient machine learning systems into production.
 
 I have a background in **aerospace engineering** where I studied **autonomous
 airborne systems**. Then I became interested in **predictive maintenance** using various artificial
@@ -14,11 +14,11 @@ industry in general.
 
 ## Favorite programming languages
 - [Python](https://www.python.org/), my day to day language
-- and [Golang](https://go.dev/), that I learned recently and find really well designed
+- [Golang](https://go.dev/)
 
 ## Favorite editors:
-- [Emacs](https://www.gnu.org/software/emacs/), for long sessions of work
-- [Vim](https://www.vim.org/)/[Neovim](https://neovim.io/), for everything else
+- [Emacs](https://www.gnu.org/software/emacs/), for tinkering 
+- [Neovim](https://neovim.io/) for everything else
 
 ## Contact me
 You can reach out to me on various plateforms:
