@@ -5,7 +5,7 @@ draft: false
 ---
 
 Hi! My name is Alain Anghelidi. I'm a former Data Scientist currently working
-as an Machine Learning Engineer whose goal is to build robust and efficient machine learning systems into production.
+as a Machine Learning Engineer whose goal is to build robust and efficient machine learning systems into production.
 
 I have a background in **aerospace engineering** where I studied **autonomous
 airborne systems**. Then I became interested in **predictive maintenance** using various artificial
