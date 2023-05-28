@@ -5,8 +5,6 @@ languageCode: en-us
 params:
   titleCutting: true
   custom_css:
-    - css/console.css
-    - css/lineicons.css
   navlinks:
     - name: RSS
       url: index.xml
