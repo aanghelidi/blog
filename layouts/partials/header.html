@@ -1,25 +1,24 @@
 <header class="site-header" role="banner">
 
-  <div class="container">
-    <h1> <a class="site-title" href="{{ $.Site.BaseURL }}/blog">{{ $.Site.Title }}</a> </h1>
-  </div>
-
-  <nav class="site-menu" role="navigation">
+  <div class="py-16">
+    <h1 class="text-2xl hover:underline"> <a href="{{ $.Site.BaseURL }}/blog">{{ $.Site.Title }}</a> </h1>
+  <nav role="navigation">
     <div class="container">
       <ul class="menu">
         {{ range .Site.Menus.main }}
-          <li class="menu-item">
+         <li class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500">
             <a href="{{ .URL }}">{{ .Name }}</a>
           </li>
         {{ end }}
 
         {{ range .Site.Menus.social }}
-          <li class="menu-item">
+         <li class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500">
             <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>
     </div>
   </nav>
+  </div>
 
 </header>
