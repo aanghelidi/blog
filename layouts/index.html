@@ -1,0 +1,23 @@
+{{ define "main" -}}
+
+<div>
+{{ with .Site.GetPage "/about" }}
+{{ .Content }}
+{{ end }}
+</div>
+
+<h2> Recent Posts </h2>
+<div>
+<ul>
+    {{ range first 3 (where (where .Site.RegularPages.ByDate.Reverse ".Section" "posts") ".Draft" false )}}
+      <li>
+        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+</ul>
+
+You can subscribe with <a href="/blog/posts/index.xml">Atom RSS feed</a> to get updates. 
+</div>
+
+{{ end -}}
