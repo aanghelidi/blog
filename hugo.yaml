@@ -3,8 +3,7 @@ title: Alain Anghelidi
 languageCode: en-us
 params:
   author: Alain Anghelidi
-  description: >
-    Alain Anghelidi is a Machine Learning Engineer. He is passionate about bringing the gap between the   machine learning experimentation and usage in production by applying engineering best practices.
+  description: Alain Anghelidi is a Machine Learning Engineer. He is passionate about bringing the gap between the machine learning experimentation and usage in production by applying engineering best practices.
 menu:
   main:
     - name: Posts
