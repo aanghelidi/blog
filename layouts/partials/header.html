@@ -1,24 +1,22 @@
 <header class="site-header" role="banner">
 
-  <div class="py-16">
-    <h1 class="text-2xl hover:underline"> <a href="{{ $.Site.BaseURL }}">{{ $.Site.Title }}</a> </h1>
-  <nav role="navigation">
-    <div class="container">
-      <ul class="menu">
-        {{ range .Site.Menus.main }}
-         <li class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500">
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          </li>
-        {{ end }}
-
-        {{ range .Site.Menus.social }}
-         <li class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500">
-            <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
-          </li>
-        {{ end }}
-      </ul>
+  <div class="flex flex-row border-b border-slate-400">
+    <div class="pt-16 basis-1/3 pb-4">
+    <h1 class="text-3xl hover:underline"> <a href="{{ $.Site.BaseURL }}">{{ $.Site.Title }}</a> </h1>
     </div>
-  </nav>
+
+  <div class="pt-16 basis-2/3 mt-0.5 pb-4 flex justify-end" role="navigation">
+        {{ range .Site.Menus.main }}
+         <span class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500 pl-4">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </span>
+        {{ end }}
+        {{ range .Site.Menus.social }}
+         <span class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500 pl-4">
+            <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
+          </span>
+        {{ end }}
+  </div>
   </div>
 
 </header>

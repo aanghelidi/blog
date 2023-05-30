@@ -1,13 +1,21 @@
 {{ define "main" -}}
+<div class="py-12">
+  <p class="py-2">I'm Alain Anghelidi. I'm a Machine Learning Engineer whose goal is to build robust and efficient machine learning systems into production.</p>
+  <p> I like to apply engineering best practices (especially testing) and I am always eager to learn new subjects and share what I have learned.</p>
 
-<div>
-{{ with .Site.GetPage "/about" }}
-{{ .Content }}
-{{ end }}
+<div class="py-4">
+<h2 class="text-xl font-bold"> Contact </h2>
+<p class="py-2">
+You can reach out to me on <span class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500"> 
+<a href="https://www.linkedin.com/in/alain-anghelidi/"> LinkedIn </a> </span> , 
+<span class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500"> 
+<a href="https://twitter.com/alangel12407606"> Twitter </a> </span>
+or you can contact me directly by <span class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500"> <a href="mailto:alainanghelidi@gmail.com"> email </a> </span>, I'll be happy to receive emails from you !
+</p>
 </div>
 
-<h2> Recent Posts </h2>
-<div>
+<div class="pb-4">
+<h2 class="text-xl font-bold"> Recent Posts </h2>
 <ul>
     {{ range first 3 (where (where .Site.RegularPages.ByDate.Reverse ".Section" "posts") ".Draft" false )}}
       <li>
@@ -16,8 +24,7 @@
       </li>
     {{ end }}
 </ul>
-
-You can subscribe with <a href="/blog/posts/index.xml">Atom RSS feed</a> to get updates. 
+</div>
 </div>
 
 {{ end -}}

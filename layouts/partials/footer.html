@@ -1,8 +1,12 @@
 <footer class="site-footer" role="banner">
-
-  <nav class="site-menu" role="navigation">
-      <p> Copyright © 2023 {{ .Site.Params.author }}. All rights reserved. </p>
+  <div class="border-t border-slate-400">
+    <div class="flex flex-row">
+      <div class="basis-1/2 pt-4">
+        You can subscribe with <span class="text-base underline decoration-sky-600 decoration-2 underline-offset-4 hover:text-sky-500"> <a href="/blog/posts/index.xml">Atom RSS feed</a> </span> to get updates. 
+      </div>
+      <div class="ml-auto pt-4">
+      Copyright © 2023 {{ .Site.Params.author }}. All rights reserved.
+      </div>
     </div>
-  </nav>
-
+  </div>
 </footer>
