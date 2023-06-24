@@ -4,9 +4,3 @@ SHELL:= /bin/bash
 
 dev:
 	hugo server --disableFastRender --buildDrafts
-
-css-dev:
-	npm run build-tw-dev
-
-css:
-	npm run build-tw
