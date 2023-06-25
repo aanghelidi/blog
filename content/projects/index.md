@@ -1,3 +1,10 @@
+---
+title: "Projects"
+date: 2023-06-25
+draft: false
+menu: "main"
+---
+
 ## Projects
 
 - 📊 [Tidytuesday gallery](https://github.com/aanghelidi/Tidytuesday) - Participation to the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) challenge
