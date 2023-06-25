@@ -4,7 +4,7 @@ Hello I'm Alain.
 
 I currently work as a Machine Learning engineer in the aerospace industry. My goal is to build robust and efficient machine learning systems into production. 
 
-I like to apply engineering best practices (especially testing) and I am always eager to learn new subjects.
+I like to apply softwar engineering best practices (especially testing) and I am always eager to learn new subjects.
 
 ---
 
