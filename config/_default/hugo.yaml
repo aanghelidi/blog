@@ -1,4 +1,4 @@
-baseurl: https://aanghelidi.gitlab.io/blog/
+baseurl: http://localhost:1313/blog/
 theme: hugo-bearblog
 title: Alain Anghelidi
 author: Alain Anghelidi
@@ -17,34 +17,4 @@ params:
   images:
   - images/share.png
   title: "Alain Anghelidi"
-
-
-
-    #menu:
-    #  main:
-    #    - name: Posts
-    #      url: /blog/posts/
-    #    - name: Projects
-    #      url: /blog/projects/
-    #  social:
-    #    - name: Github
-    #      url: https://github.com/aanghelidi
-    #    - name: Gitlab
-    #      url: https://gitlab.com/aanghelidi
-    #  footer:
-    #    - name: Github
-    #      url: https://github.com/aanghelidi
-    #    - name: Gitlab
-    #      url: https://gitlab.com/aanghelidi
-    #    - name: LinkedIn
-    #      url: https://www.linkedin.com/in/alain-anghelidi/
-    #    - name: Twitter
-    #      url: https://twitter.com/alangel12407606
-    #
-
-
-
-
-
-
 
