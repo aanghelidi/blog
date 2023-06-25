@@ -1,4 +1,4 @@
-baseurl: http://localhost:1313/blog/
+baseurl: http://localhost:1313
 theme: hugo-bearblog
 title: Alain Anghelidi
 author: Alain Anghelidi

@@ -11,5 +11,5 @@ a:hover {
 }
 
 ul.blog-posts li a:visited {
-  color: #8b6fcb;
+  color: initial;
 }
