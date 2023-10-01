@@ -1,8 +1,8 @@
-# Welcome to my blog 
+## Welcome to my blog 
 
-Hello I'm Alain.
+Hello I'm Alain, welcome to my blog!
 
-I currently work as a Machine Learning engineer in the aerospace industry. My goal is to build robust and efficient machine learning systems into production. 
+I currently work as a Machine Learning engineer in the aerospace industry. 
 
 I like to apply software engineering best practices (especially testing) and I am always eager to learn new subjects.
 

@@ -1,15 +1,39 @@
-a {
-  color: #222;
-  text-decoration: underline;
-  text-decoration-color: #0b79b8;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #0b79b8;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+
+  a:hover {
+    color: #0b79b8;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #fff;
+  }
+
+  ul.blog-posts li a:hover {
+    color: #0b79b8;
+  }
 }
 
-a:hover {
-  color: #0b79b8;
-}
+@media (prefers-color-scheme: light) {
+  a {
+    color: #222;
+    text-decoration: underline;
+    text-decoration-color: #0b79b8;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
 
-ul.blog-posts li a:visited {
-  color: initial;
+  a:hover {
+    color: #0b79b8;
+  }
+
+  ul.blog-posts li a:visited {
+    color: initial;
+  }
 }
