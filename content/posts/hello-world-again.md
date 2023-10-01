@@ -33,7 +33,7 @@ Let's apply this technique by slightly modifying it to fit into the context of t
 
 1. Select a concept to learn.
 2. Write a blog post about it.
-3. Review, and research until my understanding I can express it clearly so that the reader can understand it.
+3. Review the post and research until I can express it clearly so that the reader can understand it.
 4. Organize my notes and revisit them regularly.
 
 I also want to improve my writing skills. I believe that communicating his ideas is an essential skill.
