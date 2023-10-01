@@ -1,3 +1,3 @@
-# blog
+# Blog
 
-Repo for my personal blog.
+Source code of my personal blog.
