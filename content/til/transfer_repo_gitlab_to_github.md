@@ -1,7 +1,7 @@
 ---
 title: "Transferring a repository from Gitlab to Github"
 date: 2023-10-01T23:21:02+02:00
-draft: true
+draft: false
 tags: ["github", "gitlab", "migration"]
 ---
 

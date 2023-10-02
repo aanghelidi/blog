@@ -1,3 +1,46 @@
+/* Base Font Size */
+body {
+  font-family: 'Merriweather', serif; /* Content Font - Merriweather */
+  font-size: 14px;
+  line-height: 1.5; /* Adjust line height for readability */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif; /* Headline Font - Lato */
+  font-weight: 700; /* Bold */
+  line-height: 1.3; /* Adjust line height for readability */
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 14px; /* Readability-focused size for paragraphs */
+  line-height: 1.5; /* Adjust line height for readability */
+}
+
+/* Title */
+.title__text {
+  font-family: 'Playfair Display', serif;
+  font-size: 30; /* Adjust the size as needed */
+  font-weight: 700; /* Bold */
+  line-height: 1.1; /* Adjust line height for aesthetics */
+  text-transform: uppercase; /* Optional: Convert text to uppercase for emphasis */
+  letter-spacing: 2px; /* Optional: Adjust letter spacing for a unique look */
+  margin: 20px 0; /* Optional: Add margin for spacing */
+}
+
 @media (prefers-color-scheme: dark) {
   a {
     color: #fff;
