@@ -1,8 +1,8 @@
 /* Base Font Size */
 body {
   font-family: 'Merriweather', serif;
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 /* Headings */
@@ -26,8 +26,8 @@ h3 {
 
 /* Paragraphs */
 p {
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.6
 }
 
 /* Title */
