@@ -1,7 +1,7 @@
 ---
 title: "Hello World Again"
 date: 2023-10-01
-draft: true
+draft: false 
 tags: ["motivation"]
 createdBy: Credits to Best Banner (Jina AI)
 bannerSource: Credits to Best Banner (Jina AI)
