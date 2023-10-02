@@ -10,6 +10,12 @@
 </p>
 {{ end }}{{ end }}
 <content>
+  <figure class="banner">
+  {{ with .Resources.GetMatch "banner.png" }}
+      <img class="banner__img" src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
+  {{ end }}
+  {{ with .Params.createdBy }} <figcaption class="banner__caption" >{{ . }}</figcaption> {{ end }}
+  </figure>
   <h2 id="toc">Table of Contents</h2>
   <aside>
     {{ .TableOfContents }}
