@@ -14,7 +14,7 @@
   {{ with .Resources.GetMatch "banner.png" }}
       <img class="banner__img" src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
   {{ end }}
-  {{ with .Params.createdBy }} <figcaption class="banner__caption" >{{ . }}</figcaption> {{ end }}
+  {{ with .Params.createdBy }} <figcaption class="banner__caption" >{{ . }} - <a href="https://bestbanner.jina.ai" target="_blank">Source</a> </figcaption> {{ end }}
   </figure>
   <h2 id="toc">Table of Contents</h2>
   <aside>

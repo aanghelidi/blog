@@ -28,11 +28,20 @@
     padding: 1rem;
     text-align: center;
   }
+
   .banner__caption {
     color: #757575;
     font-size: 0.7em;
     font-style: italic;
     padding-top: 1rem;
+  }
+
+  .banner__caption a {
+    color: #757575;
+  }
+
+  .banner__caption a:hover {
+    color: #0b79b8;
   }
 }
 
@@ -66,6 +75,10 @@
     font-size: 0.7em;
     font-style: italic;
     padding-top: 1rem;
+  }
+
+  .banner__caption a:hover {
+    color: #0b79b8;
   }
 
 }
