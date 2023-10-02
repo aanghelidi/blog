@@ -91,3 +91,11 @@
   cover: cover;
 }
 
+
+/* Make footer font a little smaller. Style a la tailwind css. Elegant but simple , be creative on design */
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
